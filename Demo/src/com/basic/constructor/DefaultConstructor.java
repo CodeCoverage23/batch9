@@ -6,8 +6,5 @@ public class DefaultConstructor {
 		System.out.println("I am default constructor");
 	}
 
-	public static void main(String[] args) {
-		DefaultConstructor defaultContructor = new DefaultConstructor();
-	}
 
 }
