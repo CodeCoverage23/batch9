@@ -1,0 +1,23 @@
+package com.pallavi.basics;
+
+
+public class FrequencyString {
+
+	public static void main(String[] args) {
+		 String str = "Pallavi is awesome.";
+	       char ch = 'p'; 
+	        int frequency = 0;
+
+	        for(int i = 0; i < str.length(); i++) {
+	        	if(ch==str.charAt(i))
+	          {
+	                ++frequency;
+	            }
+	        }
+
+	        System.out.println("Frequency of "+ ch  + " = " + frequency);
+	    }
+
+	}
+
+
