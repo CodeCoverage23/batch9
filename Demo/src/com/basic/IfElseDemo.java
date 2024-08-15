@@ -10,7 +10,7 @@ public class IfElseDemo {
 		System.out.println("Enter the number : ");
 		int data = sc.nextInt();
 
-		if (data % 4 == 0) {
+		if (data % 8 == 0) {
 			System.out.println("The number is even");
 
 		} else {
