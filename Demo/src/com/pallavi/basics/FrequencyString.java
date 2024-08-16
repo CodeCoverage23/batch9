@@ -7,7 +7,7 @@ public class FrequencyString {
 		//given string
 		 String str = "Pallavis coding is awesome.";
 		 
-	       char ch = 'i'; //character whose frequency must be determined
+	       char ch = 'l'; //character whose frequency must be determined
 	        int frequency = 0; //store the frequency in frequency
 
 	        for(int i = 0; i < str.length(); i++) { //Iterate through the string
