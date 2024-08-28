@@ -1,6 +1,8 @@
 package com.assignment3.java;
 
 public class assignment3 {
+	
+	//String getStudentName (String name) which return student name
 
 public String getStudentName(String sname) {
 		
