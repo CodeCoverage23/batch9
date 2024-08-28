@@ -23,9 +23,4 @@ public class Assignment3 {
 		System.out.println("Return student name: " + studentName);
 
 
-
-
-
-		
-		
 	}
