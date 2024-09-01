@@ -1,4 +1,6 @@
-package com.rishi.basics;
+package com.rishi.assignments.Assigment_2;
+
+//Declare different datatypes
 
 public class Datatypes {
 	
