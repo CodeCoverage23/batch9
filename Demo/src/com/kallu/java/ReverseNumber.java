@@ -7,7 +7,7 @@ public class ReverseNumber {
 	{  
 	if (number < 10)   
 	{  
-	//prints the same number if the number is less than 10  
+	 
 	System.out.println(number);  
 	return;  
 	}  
@@ -22,8 +22,8 @@ public class ReverseNumber {
 	System.out.print("Enter the number that you want to reverse: ");  
 	Scanner sc = new Scanner(System.in);  
 	int num = sc.nextInt();  
-	System.out.print("The reverse of the given number is: ");  
-	//method calling  
+	System.out.print("This is the reverse number: ");  
+	 
 	reverseNumber(num);  
 	}  
 }
