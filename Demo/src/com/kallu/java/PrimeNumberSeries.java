@@ -14,7 +14,6 @@ public class PrimeNumberSeries {
 					System.out.println(n+"This is not prime number");
 					flag=1;
 					break;
-					
 				}
 		}
 			if (flag==0) {
