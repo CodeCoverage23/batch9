@@ -13,6 +13,7 @@ public class Assignment7_3 {
 		for (int i = 1; i <= number; ++i) {
 			
 			if (number % i == 0) {
+				
 		        System.out.print(i + " ");
 			}
 
