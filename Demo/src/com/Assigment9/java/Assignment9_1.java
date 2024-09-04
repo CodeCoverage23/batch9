@@ -4,7 +4,6 @@ package com.Assigment9.java;
 
 public class Assignment9_1 {
 	
-	
 	static int count=0;
 
 	public static void main(String[] args) {
