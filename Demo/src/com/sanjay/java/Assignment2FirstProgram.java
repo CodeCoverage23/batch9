@@ -1,5 +1,5 @@
 package com.sanjay.java;
-
+//declares the different primitives data type
 public class Assignment2FirstProgram {
 
 	public static void main(String[] args) {
