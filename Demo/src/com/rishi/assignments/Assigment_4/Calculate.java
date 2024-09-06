@@ -1,4 +1,4 @@
-package com.rishi.assignments.Assigment_4_1;
+package com.rishi.assignments.Assigment_4;
 
 import java.util.Scanner;
 
