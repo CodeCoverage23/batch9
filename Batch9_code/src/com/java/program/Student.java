@@ -66,12 +66,6 @@ public Student(String firstName, String lastName, String city, String country, S
 	this.mobileNummber = mobileNummber;
 }
 
-@Override
-public String toString() {
-	return "Student [firstName=" + firstName + ", lastName=" + lastName + ", city=" + city + ", country=" + country
-			+ ", mobileNummber=" + mobileNummber + "]";
-}
-
 		
 
 
