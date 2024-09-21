@@ -10,7 +10,7 @@ public class Bank {
 
 	public static void main(String[] args) {
 		Scanner sc =new Scanner(System.in);
-		l.add(0);
+		
 		
 		System.out.println("***** Welcome to Code Coverage Bank *****");
 		int flag=1;
