@@ -20,7 +20,7 @@ public class Bank {
 			System.out.println("Choose Operation Number :");
 			System.out.println("1 : Withdraw");
 			System.out.println("2 : Deposit");
-			System.out.println("3 : Show List");
+			System.out.println("3 : Check balance");
 			System.out.println("0 : Exit");
 			int n=sc.nextInt();
 			
@@ -68,8 +68,10 @@ public class Bank {
 				break;
 			}
 			case 3 : {
-				System.out.println("List of amounts : ");
-				System.out.println(l);
+				for(int balance : l) {
+					System.out.println("Total balance : "+balance);
+				}
+				
 				break;
 			}
 			case 0 : {
