@@ -20,6 +20,7 @@ class Product{
 	}
 }
 
+
 class ProductException extends Exception{
 	ProductException(String msg){
 		super(msg);
