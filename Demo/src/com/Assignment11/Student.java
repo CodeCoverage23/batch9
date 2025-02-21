@@ -1,8 +1,11 @@
 package com.Assignment11;
 
 public class Student {
-	private Student() {
-		
+//	private Student() {
+//		
+//	}
+	protected Student() {
+		super();
 	}
 	int value=20;
 

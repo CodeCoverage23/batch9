@@ -59,7 +59,7 @@ class AccountDetails {
 		System.out.println("Account Details -->>");
 		System.out.println("Account Id : " + account.id);
 		System.out.println("Account Number : " + account.accountNumber);
-		System.out.println("Account Name : " + account.balance);
+		System.out.println("Account Balance : " + account.balance);
 		System.out.println("Account Withdraw Amount : " + account.withdrawAmount);
 
 		if (account.balance >= account.withdrawAmount) {

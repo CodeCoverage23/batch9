@@ -38,6 +38,8 @@ public class MainProduct {
 		} catch (ProductException e) {
 			System.out.println("Exception Found : "+e.getMessage());
 		}
+		
+		System.out.print("Rest of the code");
 		}
 }
 

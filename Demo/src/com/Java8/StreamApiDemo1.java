@@ -23,7 +23,10 @@ public class StreamApiDemo1 {
 		List<Integer> collect4 = list.stream().map(s->s.length()).collect(Collectors.toList());
 		System.out.println(collect4);
 		
+		list.stream().forEach(System.out::println);	
+		System.out.println("*********************************");
 		
+		list.stream().sorted((t1,t2)->t2.compareTo(t1)).forEach(System.out::println);
 	}
 
 }
